@@ -1,0 +1,102 @@
+.new-world{
+    background: #fff;
+    font-family: "Microsoft YaHei","Arial";
+}
+.head,.banner{
+    min-width: 1280px;
+}
+.head{
+    height: 57px;
+    min-width: 1280px;
+}
+.head .logo{
+    display: inline-block;
+    margin:0;
+    padding: 0 0 0 59px;
+    vertical-align: middle;
+    line-height: 57px;
+    height: 57px;
+}
+.head .logo a{
+    background: url("../images/2016031601.png") 0 center no-repeat;
+    height: 57px;
+    padding-left: 35px;
+    line-height: 57px;
+    font-family: "黑体";
+    font-size: 21px;
+    color: #393a3a;
+    text-decoration: none;
+    float: left;
+}
+.head .nav,.head .nav-list,.head .nav-item,.head .nav-btn{
+    display: inline-block;
+}
+.head .nav{
+    height: 57px;
+    float: right;
+}
+.head .nav-list{
+    margin: 0;
+}
+.head .nav-item{
+    margin: 0 15px;
+    vertical-align: middle;
+}
+.head .nav-btn{
+    width: 64px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 14px;
+    color: #787b83;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .2s ease;
+}
+.head .nav-item:hover .nav-btn{
+    color: #e74f4d;
+    border-bottom: 5px solid #e74f4d;
+}
+.head .login-btn{
+    display: inline-block;
+    color: #e74f4d;
+    width: 64px;
+    height: 57px;
+    line-height: 57px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background: url("../images/2016031602.png") 0px center no-repeat;
+}
+.banner{
+    height: 690px;
+    background: url("../images/2016031603.jpg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.banner .text-box{
+    padding: 228px 0 0 118px;
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0 0 30px;
+}
+.banner p{
+    font-size: 21px;
+    color: #fffdfd;
+    line-height: 1.5em;
+    margin-bottom: 68px;
+}
+.banner .start-btn{
+    display: block;
+    width: 330px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    background: #e74f4d;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1em;
+}
